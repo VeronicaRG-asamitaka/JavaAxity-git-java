@@ -12,7 +12,9 @@ public class JavaaxityGitJavaApplication {
 
 
 
-
+	public String bodrio(){
+		return "que bodrio";
+	}
 
 
 	public String Pochita(){
@@ -27,6 +29,7 @@ public class JavaaxityGitJavaApplication {
         // Llamar a los métodos y mostrar los resultados
         System.out.println(app.saludar());
         System.out.println(app.Pochita());
+		System.out.println(app.bodrio());
 
 		SpringApplication.run(JavaaxityGitJavaApplication.class, args);
 	}
