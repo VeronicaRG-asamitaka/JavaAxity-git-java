@@ -10,11 +10,18 @@ public class JavaaxityGitJavaApplication {
 		return "Pohita te quiero";
 	}
 
-	public String rollingeyes(){
-		return "que curso tan bodrio";
-	}
+
 	public static void main(String[] args) {
+		// Crear una instancia de la clase
+        JavaaxityGitJavaApplication app = new JavaaxityGitJavaApplication();
+        
+        // Llamar a los métodos y mostrar los resultados
+        System.out.println(app.saludar());
+        System.out.println(app.Pochita());
+
 		SpringApplication.run(JavaaxityGitJavaApplication.class, args);
 	}
+
+	
 
 }
