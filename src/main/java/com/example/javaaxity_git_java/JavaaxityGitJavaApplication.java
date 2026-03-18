@@ -11,15 +11,6 @@ public class JavaaxityGitJavaApplication {
 	}
 
 
-
-
-
-
-	public String Pochita(){
-		return "Hola soy pochita";
-	}
-
-
 	public static void main(String[] args) {
 		// Crear una instancia de la clase
         JavaaxityGitJavaApplication app = new JavaaxityGitJavaApplication();
