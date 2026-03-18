@@ -11,7 +11,6 @@ public class JavaaxityGitJavaApplication {
 	}
 
 
-
 	public String bodrio(){
 		return "que bodrio";
 	}
@@ -21,7 +20,6 @@ public class JavaaxityGitJavaApplication {
 		return "Hola soy pochita";
 	}
 
-
 	public static void main(String[] args) {
 		// Crear una instancia de la clase
         JavaaxityGitJavaApplication app = new JavaaxityGitJavaApplication();
@@ -29,7 +27,7 @@ public class JavaaxityGitJavaApplication {
         // Llamar a los métodos y mostrar los resultados
         System.out.println(app.saludar());
         System.out.println(app.Pochita());
-		System.out.println(app.bodrio());
+		    System.out.println(app.bodrio());
 
 		SpringApplication.run(JavaaxityGitJavaApplication.class, args);
 	}
